@@ -3,7 +3,6 @@ class Scroller {
     const rootElement = document.querySelector(rootSelector);
     this.sections = document.querySelectorAll("section");
     const sectionsArray = [...this.sections];
-    console.log(sectionsArray);
 
     this.isScrolledIntoView(this.sections[0]);
     //  wybiera element dla którego callback jest spelniony V
