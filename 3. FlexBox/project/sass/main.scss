@@ -1,0 +1,59 @@
+$main-color: #8daae5;
+$default-font: arial, sans-serif;
+$special-font: "pt sans", "roboto", "arial", "sans-serif";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  background-color: $main-color;
+  font-family: $special-font;
+}
+
+img {
+  max-width: 90%;
+  max-height: 90%;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 2rem;
+  background-color: #ccc;
+  box-shadow: 0 0 15px 0 #000;
+  position: relative;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 20px;
+  &__logo {
+    flex-basis: 200px;
+    height: 100%;
+  }
+  &__settings {
+    flex-basis: 200px;
+    justify-content: space-around;
+    display: flex;
+  }
+  &__search {
+    flex-grow: 1;
+  }
+  &__nav {
+    flex-basis: 100%;
+  }
+
+  .search {
+    &__input {
+      width: 60%;
+    }
+  }
+}

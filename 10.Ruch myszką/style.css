@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.balloon-animation {
+  width: 100vw;
+  height: 100vh;
+  background-color: #00e7ff;
+  position: relative;
+}
+
+.cloud {
+  position: absolute;
+  width: 20%;
+}
+
+.balloon {
+  position: absolute;
+  width: 20%;
+}
+
+.cloud:nth-child(1) {
+  left: 25%;
+  top: 30%;
+  z-index: 2;
+}
+.cloud:nth-child(2) {
+  left: 15%;
+  top: 55%;
+}
+.cloud:nth-child(3) {
+  left: 45%;
+  top: 25%;
+  z-index: 2;
+}
+.cloud:nth-child(4) {
+  left: 60%;
+  top: 5%;
+}
+.cloud:nth-child(5) {
+  top: 10%;
+  left: 5%;
+}
+.cloud:nth-child(6) {
+  right: 10%;
+  top: 40%;
+  z-index: 2;
+}
+
+.balloon {
+  left: 50%;
+  top: 15%;
+}
