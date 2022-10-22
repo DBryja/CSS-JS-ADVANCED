@@ -1,0 +1,14 @@
+const a = () => {
+  console.log("funkcja a");
+};
+
+console.log("Hello Node!");
+
+setTimeout(() => {
+  const text = "done";
+  console.log(text);
+}, 0);
+
+console.log("koniec");
+
+a();
