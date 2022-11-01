@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\11.nodejs\\main.js"
+      "program": "${workspaceFolder}\\14.0.Webpack\\dist\\main.js"
     }
   ]
 }
